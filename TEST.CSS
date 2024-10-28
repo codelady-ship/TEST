@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    margin:auto;
+    text-align: center;
+    padding:1rem 0rem ;
+    border: 1px solid #0000ff;
+}
+.a,.b,.c{
+    border: 1px solid;
+    gap: 2rem;
+    padding:  2% 5%;
+    margin: 0.2rem 0.2rem;
+}
+.a p,.b p,.c p{
+    padding: 0.5rem;
+}
+@media(max-width:768px){
+    .container{
+        display: inline-block;
+        width: 75%;
+    }
+    .a,.b,.c{
+        padding: 2%;
+        margin: 1% 0 1% 1%;
+        width: 90%;
+    }
+
+}
+/* task1 sonu */
+.qutular{
+    margin: 2%;
+    display: flex;
+
+}
+.qutu1 p{
+    width: 80%;
+    padding: 2% 8%;
+}
+.qutu1 h2,.qutu1 h5{
+    padding: 2% 8%;
+}
+@media(max-width:768px) {
+    .qutular{
+        margin-left: 2%;
+        display:inline-block;}
+
+    .qutu1 p{
+        width: 60%;
+        padding: 2% 8%;
+    }
+    .qutu1 h2,.qutu1 h5{
+        padding: 2% 8%;
+    }
+    .qutu2 img{
+        width: 25rem;
+        margin-left: 8%;
+    }
+}
+
+/* task 2son */
+.task3{
+    width: 30%;
+    margin: auto;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.task3 ul li{
+ margin-left: 4%;
+}
+.task3 h2{
+    margin: auto;
+    color: dimgray;
+}
+input{
+    padding: 2%;
+    
+}
+.checkbox{display: flex;
+    gap: 1rem;
+}
+.keep{
+    margin-left: 14%;
+    text-decoration: none;
+    color: rgb(91, 169, 196);
+}
+.log{
+    color: antiquewhite;
+    background-color: rgb(57, 88, 184);
+}
+.check{
+    color: rgb(66, 66, 66);
+}
+@media(max-width:768px) {
+    .task3{
+        width: 50%;
+        margin: auto;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+}
+}
+/* task 3son */
+.boxmodel,.display{
+    color: black;
+    padding: 2%;
+
+}
+@media(max-width:768px) {
+    .boxmodel,.display{
+        width: 80%;
+        padding: 2%;
+}
+/* task 4-5 son */ 
